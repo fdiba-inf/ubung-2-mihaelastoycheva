@@ -6,15 +6,15 @@ import java.lang.Math;
 public class QuadraticEquation {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        float a = input.nextFloat();
-        float b = input.nextFloat();
-        float c = input.nextFloat();
+        double a = input.nextDouble();
+        double b = input.nextDouble();
+        double c = input.nextDouble();
 
-        float D = b*b - (4*a*c);
+        double D = b*b - (4*a*c);
 
-        float x1;
-        float x2;
-        float x;
+        double x1;
+        double x2;
+        double x;
 
         if (a != 0){
             if (D>=0){
